@@ -1,0 +1,79 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+
+
+.emilys-candy-regular {
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;}
+
+
+.fredoka-<uniquifier> {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;}
+
+h1{ font-family:"Emilys Candy";
+    color: deeppink;}
+h2{ font-family:"Emilys Candy";
+    color: deeppink;}
+p { font-family:"Fredoka" }
+ul { font-family: "Fredoka";}
+body{background: rgba(255, 182, 193, 0.3);}
+
+button { font-family: "Fredoka" }
+
+a:link {color: deeppink; text-decoration: none;}
+a:visited {color: deeppink; text-decoration: none;} 
+a:hover {color: deepskyblue;text-decoration: underline;}
+a:focus { outline: 2px solid hotpink; }
+a:active {text-decoration: underline;}
+
+.bg-primary {background-color: lightpink !important;}
+
+.carousel {
+    position: relative;
+    width: 500px;
+    margin: 15px;
+    overflow: hidden;
+    margin-top:-100px;
+    margin-bottom:-100px;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+    width: 100%;
+
+    display: block;
+}
+.carousel-inner  > .item > img {margin:auto;}
+
+button {
+    position: absolute;
+    top: 50%;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev { left: 5px; }
+.next { right: 5px; }
+
+header { background-image: url("coffee.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;}
+
+.coffee { background-color: rgba(255,255,255, 0.4) }
+
+h1 {color: black;}
+p{color: black;}
+
