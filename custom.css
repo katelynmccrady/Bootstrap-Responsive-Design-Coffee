@@ -36,7 +36,7 @@ a:active {text-decoration: underline;}
 .carousel {
     position: relative;
     width: 500px;
-    margin: 15px;
+    margin: 0 auto;
     overflow: hidden;
     margin-top:-100px;
     margin-bottom:-100px;
